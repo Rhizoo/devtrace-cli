@@ -1,6 +1,8 @@
 - Configured uv - project mgmt library
 - included requred deps
 - checked for build
+- discussed working
+- explained current working principle
 
 ### TODO
 
