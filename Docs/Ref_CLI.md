@@ -20,4 +20,11 @@ Possible refernce for CLI Validator:
 
 AIM: Build CLI but follow HTTPie's separation between CLI AND core.Even if CLI changes the core should remain untouched.
 
-Testing enforcer v1
+## Testing enforcer v1 
+- First Issue: .devtrace/hooks/commit-msg: line 8: devtrace: command not found
+Devtrace itself is a dependency 
+
+- Solution: Adding devtrace executable file in the path where your python is 
+  example:C:\Users\{User_Name}\AppData\Local\Programs\Python\Python313 
+
+jon
