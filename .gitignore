@@ -34,3 +34,6 @@ wheels/
 # Virtual environments
 .venv
 .vscode/settings.json
+
+# DevTrace - per-developer local config
+.devtrace/configs/local/

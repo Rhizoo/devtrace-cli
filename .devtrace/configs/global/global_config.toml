@@ -1,6 +1,5 @@
 [commit]
 pattern = "^[A-Z]+-\\d+\\s\\|\\s[A-Z]+\\s:\\s.+$"
-default_type = "FEAT"
 strict = true
 
 [ticket]
