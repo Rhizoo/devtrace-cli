@@ -1,12 +1,6 @@
 #!/bin/sh
-# devtrace commit-msg hook: Calls standalone devtrace executable
-
-REPO_ROOT="$(git rev-parse --show-toplevel)"
-RULES_FILE="$REPO_ROOT/.devtrace/configs/rules.toml"
-
-
-devtrace validate commit "$1" --rules-path "$RULES_FILE" 
-
+# Strict validation
+devtrace validate commit "$1" --no-format
 if [ $? -ne 0 ]; then
     exit 1
 fi

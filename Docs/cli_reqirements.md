@@ -13,3 +13,6 @@
 - dt status => gives jira status
 - dt jira => opens [TKT] in browser
 - dt log => logs in jira
+
+pyinstaller --onefile --name devtrace --clean --console src/devtrace/main.py
+pyinstaller devtrace.spec --clean
