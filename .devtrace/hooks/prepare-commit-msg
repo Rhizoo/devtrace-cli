@@ -1,0 +1,4 @@
+#!/bin/sh
+# Smart formatter (never blocks)
+devtrace format "$1"
+exit 0
